@@ -1,6 +1,7 @@
 body {
   background-image: url("bg.svg");
   background-size: 25%;
+  background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
