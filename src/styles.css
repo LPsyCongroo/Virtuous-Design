@@ -1,0 +1,38 @@
+body {
+  background-image: url("bg.svg");
+  background-size: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  width: 480px;
+  background: #282824;
+  box-shadow: 0px 4px 8px #ddd;
+  border-radius: 4px;
+  font-family: "Raleway", sans-serif;
+  font-weight: lighter;
+  color: white;
+  text-align: center;
+  border: solid 1px #282824;
+}
+.card h1 {
+  margin: 32px;
+  font-weight: 200;
+  font-family: "Raleway Dots";
+  font-size: 3rem;
+}
+.innerCard {
+  background: white;
+  color: #282824;
+  padding: 32px;
+  border-radius: 0px 0px 3px 3px;
+  border: solid 1px white;
+}
+.innerCard h2 {
+  font-weight: 200;
+  text-align: left;
+  margin: 0;
+}
